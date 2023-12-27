@@ -1,0 +1,68 @@
+@import url(reset.css);
+:root {
+	--index: calc(1vw + 1vh);
+}
+.wrapper {
+	height: 100vh;
+	background-image: url(../img/1617681366_44-p-dremuchii-les-art-kartinki-49.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.main {
+	width: calc(var(--index) *25);
+}
+.title{
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.title__teh {
+	text-align: center;
+	font-size: calc(var(--index) *2);
+	color: wheat;
+	margin-top: calc(var(--index) *1);
+}
+.hunter {
+	width: calc(var(--index) *25);
+	height: calc(var(--index) *25);
+	background-image: url(/img/heart-svgrepo-com\ \(1\)\ 1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+/* 	background-color: #fff; */
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.input {
+	font-size: calc(var(--index) *1.5);
+	width: calc(var(--index) *9.5);
+	text-align: center;
+	color: white;
+}
+.btn-center {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.btn {
+	color: white;
+	background-color: rgb(14, 14, 14);
+	padding: calc(var(--index) *.6) calc(var(--index) *4);
+	border-radius: calc(var(--index) *.5);
+	border: calc(var(--index) *.2) solid white;
+}
+.error {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.err {
+	font-size: calc(var(--index) *1);
+	padding-top: calc(var(--index) *1);
+}

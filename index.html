@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Принцессе от принца</title>
+
+	<link rel="stylesheet" href="style/main.css">
+	<script src="js/app.js" defer></script>
+
+</head>
+<body>
+	
+	<div class="wrapper">
+
+		<div class="title">
+			<div class="title__teh">
+				<h2>Добро пожаловать в сказку!</h2>
+			</div>
+		</div>
+
+		<div class="main">
+			<div class="hunter">
+				<div class="hunter-input">
+					<input type="text" placeholder="00XXX00" class="input" id="passwordInput">
+				</div>
+			</div>
+			<div class="btn-center">
+				<button onclick="checkPassword()" class="btn">В сказку!</button>
+			</div>
+			<div class="error">
+				<div id="error-message" class="err" style="color: red;"></div> <!-- Сообщение об ошибке -->
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
