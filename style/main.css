@@ -30,7 +30,7 @@
 .hunter {
 	width: calc(var(--index) *25);
 	height: calc(var(--index) *25);
-	background-image: url(/img/heart-svgrepo-com\ \(1\)\ 1.png);
+	background-image: url(../img/heart.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
